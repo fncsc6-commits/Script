@@ -1,3 +1,7 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
 local Converted = {
 	["_ScreenGui"] = Instance.new("ScreenGui");
 	["_Frame"] = Instance.new("Frame");
@@ -30,25 +34,35 @@ local Converted = {
 	["_Fly"] = Instance.new("TextButton");
 	["_UICorner9"] = Instance.new("UICorner");
 	["_LocalScript8"] = Instance.new("LocalScript");
-	["_LocalScript9"] = Instance.new("LocalScript");
-	["_Frame1"] = Instance.new("Frame");
+	["_LogChat"] = Instance.new("TextButton");
 	["_UICorner10"] = Instance.new("UICorner");
-	["_Close"] = Instance.new("TextButton");
-	["_UICorner11"] = Instance.new("UICorner");
-	["_UIStroke1"] = Instance.new("UIStroke");
+	["_LocalScript9"] = Instance.new("LocalScript");
 	["_LocalScript10"] = Instance.new("LocalScript");
-	["_Name"] = Instance.new("TextLabel");
-	["_LocalScript11"] = Instance.new("LocalScript");
-	["_Fps"] = Instance.new("TextLabel");
-	["_LocalScript12"] = Instance.new("LocalScript");
-	["_Frame2"] = Instance.new("Frame");
+	["_Frame1"] = Instance.new("Frame");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_Close"] = Instance.new("TextButton");
 	["_UICorner12"] = Instance.new("UICorner");
-	["_Name1"] = Instance.new("TextLabel");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_Name"] = Instance.new("TextLabel");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_Fps"] = Instance.new("TextLabel");
 	["_LocalScript13"] = Instance.new("LocalScript");
-	["_Fps1"] = Instance.new("TextLabel");
+	["_Frame2"] = Instance.new("Frame");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_Name1"] = Instance.new("TextLabel");
 	["_LocalScript14"] = Instance.new("LocalScript");
-	["_PlayerServer"] = Instance.new("TextLabel");
+	["_Fps1"] = Instance.new("TextLabel");
 	["_LocalScript15"] = Instance.new("LocalScript");
+	["_PlayerServer"] = Instance.new("TextLabel");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_Frame3"] = Instance.new("Frame");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_Frame31"] = Instance.new("Frame");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_TextLabel"] = Instance.new("TextLabel");
 }
 
 -- Properties:
@@ -222,6 +236,23 @@ Converted["_Fly"].Parent = Converted["_Frame"]
 Converted["_UICorner9"].CornerRadius = UDim.new(0, 10)
 Converted["_UICorner9"].Parent = Converted["_Fly"]
 
+Converted["_LogChat"].Font = Enum.Font.SourceSans
+Converted["_LogChat"].Text = "LogChat"
+Converted["_LogChat"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LogChat"].TextScaled = true
+Converted["_LogChat"].TextSize = 14
+Converted["_LogChat"].TextWrapped = true
+Converted["_LogChat"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LogChat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LogChat"].BorderSizePixel = 0
+Converted["_LogChat"].Position = UDim2.new(0.857971013, 0, 0.019480519, 0)
+Converted["_LogChat"].Size = UDim2.new(0, 41, 0, 33)
+Converted["_LogChat"].Name = "LogChat"
+Converted["_LogChat"].Parent = Converted["_Frame"]
+
+Converted["_UICorner10"].CornerRadius = UDim.new(0, 10)
+Converted["_UICorner10"].Parent = Converted["_LogChat"]
+
 Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(42.000001296401024, 42.000001296401024, 42.000001296401024)
 Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame1"].BorderSizePixel = 0
@@ -231,8 +262,8 @@ Converted["_Frame1"].Visible = false
 Converted["_Frame1"].Name = "Frame1"
 Converted["_Frame1"].Parent = Converted["_ScreenGui"]
 
-Converted["_UICorner10"].CornerRadius = UDim.new(0, 10)
-Converted["_UICorner10"].Parent = Converted["_Frame1"]
+Converted["_UICorner11"].CornerRadius = UDim.new(0, 10)
+Converted["_UICorner11"].Parent = Converted["_Frame1"]
 
 Converted["_Close"].Font = Enum.Font.Arcade
 Converted["_Close"].Text = "X"
@@ -249,8 +280,8 @@ Converted["_Close"].Size = UDim2.new(0, 38, 0, 36)
 Converted["_Close"].Name = "Close"
 Converted["_Close"].Parent = Converted["_Frame1"]
 
-Converted["_UICorner11"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner11"].Parent = Converted["_Close"]
+Converted["_UICorner12"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner12"].Parent = Converted["_Close"]
 
 Converted["_UIStroke1"].Parent = Converted["_Close"]
 
@@ -288,8 +319,8 @@ Converted["_Frame2"].Size = UDim2.new(0, 310, 0, 37)
 Converted["_Frame2"].Name = "Frame2"
 Converted["_Frame2"].Parent = Converted["_ScreenGui"]
 
-Converted["_UICorner12"].CornerRadius = UDim.new(0, 10)
-Converted["_UICorner12"].Parent = Converted["_Frame2"]
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 10)
+Converted["_UICorner13"].Parent = Converted["_Frame2"]
 
 Converted["_Name1"].Font = Enum.Font.SourceSans
 Converted["_Name1"].Text = "Name :"
@@ -330,6 +361,46 @@ Converted["_PlayerServer"].Size = UDim2.new(0, 46, 0, 23)
 Converted["_PlayerServer"].Name = "PlayerServer"
 Converted["_PlayerServer"].Parent = Converted["_Frame2"]
 
+Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(42.000001296401024, 42.000001296401024, 42.000001296401024)
+Converted["_Frame3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame3"].BorderSizePixel = 0
+Converted["_Frame3"].Position = UDim2.new(0.602963448, 0, 0.250403881, 0)
+Converted["_Frame3"].Size = UDim2.new(0, 148, 0, 308)
+Converted["_Frame3"].Visible = false
+Converted["_Frame3"].Name = "Frame3"
+Converted["_Frame3"].Parent = Converted["_ScreenGui"]
+
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner14"].Parent = Converted["_Frame3"]
+
+Converted["_UIStroke2"].Parent = Converted["_Frame3"]
+
+Converted["_Frame31"].BackgroundColor3 = Color3.fromRGB(42.000001296401024, 42.000001296401024, 42.000001296401024)
+Converted["_Frame31"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame31"].BorderSizePixel = 0
+Converted["_Frame31"].Interactable = false
+Converted["_Frame31"].Position = UDim2.new(0.0671337247, 0, 0.0360866413, 0)
+Converted["_Frame31"].Size = UDim2.new(0, 127, 0, 285)
+Converted["_Frame31"].Name = "Frame3"
+Converted["_Frame31"].Parent = Converted["_Frame3"]
+
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner15"].Parent = Converted["_Frame31"]
+
+Converted["_UIStroke3"].Parent = Converted["_Frame31"]
+
+Converted["_TextLabel"].Font = Enum.Font.Arcade
+Converted["_TextLabel"].Text = "UPDATE SOON !!!"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(-0.283464581, 0, 0.410526305, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_TextLabel"].Parent = Converted["_Frame31"]
+
 -- Fake Module Scripts:
 
 local fake_module_scripts = {}
@@ -337,7 +408,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function KICBQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Esp.LocalScript
+local function JXZM_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Esp.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Esp"]
@@ -352,22 +423,56 @@ local function KICBQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Es
 
 	local button = script.Parent
 	
-	button.MouseButton1Click:Connect(function()
-		-- tout joueur sera outline bleu
+	local effectActive = false
+	
+	local function applyOutlineToAllPlayers()
 		local players = game:GetService("Players")
-		for _, player in pairs(players:GetPlayers()) do
-			if player.Character then
+		for _, player in players:GetPlayers() do
+			local character = player.Character
+			if character then
+				-- Remove existing Highlight if present
+				local existing = character:FindFirstChild("Highlight")
+				if existing then
+					existing:Destroy()
+				end
+				-- Create new Highlight
 				local outline = Instance.new("Highlight")
-				outline.Adornee = player.Character
+				outline.Adornee = character
 				outline.FillTransparency = 1
 				outline.OutlineColor = Color3.new(0, 0, 1) -- bleu
 				outline.OutlineTransparency = 0
-				outline.Parent = player.Character
+				outline.Parent = character
+			end
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if not effectActive then
+			effectActive = true
+			-- Loop to refresh outlines every 0.3 seconds
+			while effectActive do
+				applyOutlineToAllPlayers()
+				task.wait(0.3)
+			end
+		else
+			-- If clicked again, stop the effect and remove all highlights
+			effectActive = false
+			local players = game:GetService("Players")
+			for _, player in players:GetPlayers() do
+				local character = player.Character
+				if character then
+					local existing = character:FindFirstChild("Highlight")
+					if existing then
+						existing:Destroy()
+					end
+				end
 			end
 		end
 	end)
+	
+	
 end
-local function GNFLA_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Speed.LocalScript
+local function HBNGQNB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Speed.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Speed"]
@@ -393,7 +498,7 @@ local function GNFLA_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Sp
 		end
 	end)
 end
-local function BKUJVT_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Noclip.LocalScript
+local function QYZQP_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Noclip.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Noclip"]
@@ -460,7 +565,7 @@ local function BKUJVT_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.N
 	end)
 	
 end
-local function NAGYBCG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Invisible.LocalScript
+local function HJBOXH_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Invisible.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Invisible"]
@@ -626,7 +731,7 @@ local function NAGYBCG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 	
 	
 end
-local function NDOQZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Freecam.LocalScript
+local function RLPLF_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Freecam.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Freecam"]
@@ -775,7 +880,7 @@ local function NDOQZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Fr
 	end)
 	
 end
-local function EOQVMB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.God.LocalScript
+local function XKNVDWY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.God.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_God"]
@@ -808,7 +913,7 @@ local function EOQVMB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.G
 		end
 	end)
 end
-local function TVWVAY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Unload.LocalScript
+local function IPEH_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Unload.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Unload"]
@@ -828,7 +933,7 @@ local function TVWVAY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.U
 		screengui:Destroy() 
 	end)
 end
-local function ERTSGE_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.InfJump.LocalScript
+local function BUSGD_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.InfJump.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_InfJump"]
@@ -864,7 +969,7 @@ local function ERTSGE_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.I
 	end)
 	
 end
-local function QQHE_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Fly.LocalScript
+local function THFI_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Fly.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Fly"]
@@ -966,7 +1071,28 @@ local function QQHE_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Fly
 	end)
 	
 end
-local function NMNNP_fake_script() -- Fake Script: StarterGui.ScreenGui.LocalScript
+local function JEIOQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.LogChat.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_LogChat"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local frame3 = script.Parent.Parent.Parent.Frame3
+	
+	button.MouseButton1Click:Connect(function()
+		frame3.Visible = not frame3.Visible
+	end)
+	
+end
+local function AXDENA_fake_script() -- Fake Script: StarterGui.ScreenGui.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ScreenGui"]
@@ -993,7 +1119,7 @@ local function NMNNP_fake_script() -- Fake Script: StarterGui.ScreenGui.LocalScr
 		end
 	end)
 end
-local function GKTV_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Close.LocalScript
+local function UNIZO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Close.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Close"]
@@ -1017,7 +1143,7 @@ local function GKTV_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Cl
 		frame2.Visible = true
 	end)
 end
-local function AICVV_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Name.LocalScript
+local function JXPEPZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Name.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Name"]
@@ -1037,7 +1163,7 @@ local function AICVV_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.N
 	
 	
 end
-local function DXZBXPR_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Fps.LocalScript
+local function DBBTW_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1.Fps.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Fps"]
@@ -1068,7 +1194,7 @@ local function DXZBXPR_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame1
 	
 	
 end
-local function LMVS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Name.LocalScript
+local function WDADNFE_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Name.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Name1"]
@@ -1088,7 +1214,7 @@ local function LMVS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Na
 	
 	
 end
-local function SJLDTS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Fps.LocalScript
+local function ADWTDRG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Fps.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Fps1"]
@@ -1119,7 +1245,7 @@ local function SJLDTS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.
 	
 	
 end
-local function SHOH_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.PlayerServer.LocalScript
+local function NDOVMIQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.PlayerServer.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_PlayerServer"]
@@ -1151,19 +1277,20 @@ local function SHOH_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame2.Pl
 	
 end
 
-coroutine.wrap(KICBQ_fake_script)()
-coroutine.wrap(GNFLA_fake_script)()
-coroutine.wrap(BKUJVT_fake_script)()
-coroutine.wrap(NAGYBCG_fake_script)()
-coroutine.wrap(NDOQZ_fake_script)()
-coroutine.wrap(EOQVMB_fake_script)()
-coroutine.wrap(TVWVAY_fake_script)()
-coroutine.wrap(ERTSGE_fake_script)()
-coroutine.wrap(QQHE_fake_script)()
-coroutine.wrap(NMNNP_fake_script)()
-coroutine.wrap(GKTV_fake_script)()
-coroutine.wrap(AICVV_fake_script)()
-coroutine.wrap(DXZBXPR_fake_script)()
-coroutine.wrap(LMVS_fake_script)()
-coroutine.wrap(SJLDTS_fake_script)()
-coroutine.wrap(SHOH_fake_script)()
+coroutine.wrap(JXZM_fake_script)()
+coroutine.wrap(HBNGQNB_fake_script)()
+coroutine.wrap(QYZQP_fake_script)()
+coroutine.wrap(HJBOXH_fake_script)()
+coroutine.wrap(RLPLF_fake_script)()
+coroutine.wrap(XKNVDWY_fake_script)()
+coroutine.wrap(IPEH_fake_script)()
+coroutine.wrap(BUSGD_fake_script)()
+coroutine.wrap(THFI_fake_script)()
+coroutine.wrap(JEIOQ_fake_script)()
+coroutine.wrap(AXDENA_fake_script)()
+coroutine.wrap(UNIZO_fake_script)()
+coroutine.wrap(JXPEPZ_fake_script)()
+coroutine.wrap(DBBTW_fake_script)()
+coroutine.wrap(WDADNFE_fake_script)()
+coroutine.wrap(ADWTDRG_fake_script)()
+coroutine.wrap(NDOVMIQ_fake_script)()
